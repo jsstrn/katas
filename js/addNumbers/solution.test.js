@@ -1,4 +1,4 @@
-const addNumbers = require("./addNumbers");
+const addNumbers = require("./solution");
 
 describe("addNumbers", () => {
   it("adds two numbers together", () => {
