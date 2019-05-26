@@ -1,4 +1,4 @@
-# Katas
+# 🥋 Katas
 
 ## Getting started
 
@@ -9,7 +9,7 @@ cd js
 npm install
 ```
 
-To run the tests, run:
+To run tests, run:
 
 ```sh
 npm test
