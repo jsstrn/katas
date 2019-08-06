@@ -21,46 +21,20 @@ To watch for changes while running tests, run:
 npm run test:watch
 ```
 
-## List of katas
+## Resources
 
-### [Dave Thomas's CodeKata](http://codekata.com/)
+Find code katas from these sites
 
-### [CodeSignal](https://codesignal.com/developers/)
-
-### [Coderbyte](https://www.coderbyte.com/)
-
-Practice coding challenges
-
-### [Codility](https://app.codility.com/programmers/)
-
-- Learn computing concepts like time complexity and sorting algorithms in their [lessons](https://app.codility.com/programmers/lessons/).
-- Complete company sponsored [challenges](https://app.codility.com/programmers/challenges/).
-
-### [Exercism](https://exercism.io/)
-
-### [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)
-
-Coding competition organized by Google
-
-### [HackerRank](https://www.hackerrank.com/)
-
-Practice programming challenges and exercises
-
-### [Interview Cake](https://www.interviewcake.com)
-
-Interview questions from top tech companies
-
-### [LeetCode](https://leetcode.com)
-
-A platform for preparing technical coding interviews
-
-### [Katalog](http://kata-log.rocks)
-
-A _katalog_ of code katas
-
-## Learning a new programming language
-
-Katas are a great way to learn a new programming language. Here are some resources I use when learning to pick up a new language.
-
+- [Codility Challenges](https://app.codility.com/programmers/challenges/)
+- [Codility Lessons](https://app.codility.com/programmers/lessons/)
+- [Exercism](https://exercism.io/)
+- [LeetCode](https://leetcode.com)
+- [Interview Cake](https://www.interviewcake.com)
+- [Dave Thomas's CodeKata](http://codekata.com/)
+- [CodeSignal](https://codesignal.com/developers/)
+- [Coderbyte](https://www.coderbyte.com/)
+- [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam)
+- [HackerRank](https://www.hackerrank.com/)
+- [Katalog](http://kata-log.rocks)
 - [Hyperpolyglot](http://hyperpolyglot.org)
 - [Learn X in Y minutes](https://learnxinyminutes.com)
