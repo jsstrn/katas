@@ -1,4 +1,4 @@
-const solution = (text) => {
+const sumOfABeach = (text) => {
   if (!text) return 0
   
   let count = 0
@@ -7,4 +7,4 @@ const solution = (text) => {
   return (match) ? (count + match.length) : count 
 }
 
-module.exports = solution
+module.exports = sumOfABeach
