@@ -1,5 +1,5 @@
 function whoLikesThis(names) {
-  const everyone = {
+  const who = {
     0: "no one",
     1: `${names[0]}`,
     2: `${names[0]} and ${names[1]}`,
@@ -7,8 +7,8 @@ function whoLikesThis(names) {
     4: `${names[0]}, ${names[1]} and ${names.length - 2} others`
   };
 
-  let key = Math.min(4, names.length)
-  let someone = everyone[key];
+  let key = Math.min(4, names.length);
+  let someone = who[key];
   let likes = names.length < 2 ? "likes" : "like";
 
   return `${someone} ${likes} this`;
