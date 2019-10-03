@@ -10,6 +10,11 @@ describe('sum of a beach', () => {
     expect(sumOfABeach(text)).toBe(0)
   })
 
+  it("returns 0 when 'hello' is provided", () => {
+    const text = 'hello'
+    expect(sumOfABeach(text)).toBe(0)
+  })
+
   describe('Matches fish', () => {
     it("returns 1 when 'fish' is provided", () => {
       const text = 'fish'
@@ -25,7 +30,7 @@ describe('sum of a beach', () => {
       const text = 'fishy Fishes'
       expect(sumOfABeach(text)).toBe(2)
     })
-    
+
     it("returns 3 when 'fishes along a fishy fish farm' is provided", () => {
       const text = 'fishes along a fishy fish farm'
       expect(sumOfABeach(text)).toBe(3)
@@ -37,7 +42,7 @@ describe('sum of a beach', () => {
       const text = 'fishes in the sand'
       expect(sumOfABeach(text)).toBe(2)
     })
-    
+
     it("returns 6 when 'sandsandsandfishfishfish' is provided", () => {
       const text = 'sandsandsandfishfishfish'
       expect(sumOfABeach(text)).toBe(6)
