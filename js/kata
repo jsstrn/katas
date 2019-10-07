@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+RED="\033[0;31m"
+GREEN="\033[0;32m"
+CLEAR="\033[0m"
+
+KATA=$1
+
+if [ $# -eq 0 ]; then
+    echo -e "⚠️  ${RED}No kata name provided${CLEAR}"
+    echo -e "Example usage: ./kata fizzBuzz"
+    exit 1
+fi
+
+if [ -d "$KATA" ]; then
+  echo -e "⚠️  ${RED}A kata with the name ${KATA} already exists${CLEAR}"
+  exit 1
+fi
+
+echo -e "🏗 ${GREEN}Creating a new kata for ${KATA}${CLEAR}"
+
+# Create a new directory
+mkdir -p $KATA
+
+# Create a README
+touch ./$KATA/README.md
+
+# Create solution file
+touch ./$KATA/$KATA.js
+
+# Create a test file
+touch ./$KATA/$KATA.test.js
+
+# Add title to README
+echo "# $KATA" > $KATA/README.md
