@@ -1,13 +1,13 @@
 const hasEnoughVowels = text => {
   const threshold = 30;
 
-  const match = text.match(/[aeiou]/gi);
+  const vowels = text.match(/[aeiou]/gi);
 
-  if (!match) {
+  if (!vowels) {
     return false;
   }
 
-  const percentage = (match.length / text.length) * 100;
+  const percentage = (vowels.length / text.length) * 100;
   return percentage >= threshold;
 };
 
