@@ -1,5 +1,15 @@
 # Katas in JavaScript
 
+## Getting started 
+
+To start a new kata, simply run the following script. This will create a new folder with `<name-of-kata>` with three files - `<name-of-kata>.js`, `<name-of-kata>.test.js` and `README.md`.
+
+```
+npm run kata -- <name-of-kata>
+```
+
+## Security 
+
 Periodically run checks for security vulnerabilities and to see if packages are updated.
 
 To check for issues
