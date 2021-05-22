@@ -1,2 +1,5 @@
-node_modules/
+# Node.js
 js/node_modules/
+
+# Python
+py/__pycache__
